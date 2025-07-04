@@ -19,7 +19,14 @@ const Index = () => {
       <nav className="sticky top-0 bg-white border-b border-gray-200 z-50">
         <div className="container mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
-            <div className="text-2xl font-bold tracking-tight">OQES</div>
+            <div className="flex items-center space-x-3">
+              <img
+                src="https://cdn.poehali.dev/files/45a25df5-12f2-4e86-bc35-a8f8c2dd2dd7.png"
+                alt="OQES Logo"
+                className="h-8 w-8 object-contain filter invert"
+              />
+              <div className="text-2xl font-bold tracking-tight">OQES</div>
+            </div>
             <div className="hidden md:flex space-x-8">
               <a
                 href="#about"
@@ -60,13 +67,11 @@ const Index = () => {
       </nav>
 
       {/* Hero Section */}
-      <section className="py-20 text-white bg-[#ffffff]">
+      <section className="py-20 bg-black text-white">
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
-              <h1 className="text-6xl font-bold mb-6 tracking-tight text-[#000000]">
-                OQES
-              </h1>
+              <h1 className="text-6xl font-bold mb-6 tracking-tight">OQES</h1>
               <p className="text-2xl mb-8 text-gray-300">
                 Beatmaker & Music Producer
               </p>
@@ -100,6 +105,13 @@ const Index = () => {
                 className="w-full h-96 object-cover rounded-lg shadow-2xl"
               />
               <div className="absolute inset-0 bg-black bg-opacity-20 rounded-lg"></div>
+              <div className="absolute top-4 right-4 bg-white bg-opacity-90 p-3 rounded-lg shadow-lg">
+                <img
+                  src="https://cdn.poehali.dev/files/45a25df5-12f2-4e86-bc35-a8f8c2dd2dd7.png"
+                  alt="OQES Logo"
+                  className="h-12 w-12 object-contain filter invert"
+                />
+              </div>
             </div>
           </div>
         </div>
