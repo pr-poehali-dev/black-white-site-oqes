@@ -107,11 +107,11 @@ const Index = () => {
                 className="w-full h-96 object-cover rounded-lg shadow-2xl"
               />
               <div className="absolute inset-0 bg-black bg-opacity-20 rounded-lg"></div>
-              <div className="absolute top-4 right-4 bg-white bg-opacity-90 p-3 rounded-lg shadow-lg">
+              <div className="absolute top-4 right-4 bg-white bg-opacity-90 p-3 shadow-lg px-[259px] py-[145px] rounded-0">
                 <img
                   src="https://cdn.poehali.dev/files/45a25df5-12f2-4e86-bc35-a8f8c2dd2dd7.png"
                   alt="OQES Logo"
-                  className="h-12 w-12 object-contain filter invert"
+                  className="h-12 w-12 filter invert py-0 my-0 rounded-none object-contain px-0"
                 />
               </div>
             </div>
