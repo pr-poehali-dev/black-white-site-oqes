@@ -67,11 +67,13 @@ const Index = () => {
       </nav>
 
       {/* Hero Section */}
-      <section className="py-20 bg-black text-white">
+      <section className="py-20 text-white bg-[#ffffff]">
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
-              <h1 className="text-6xl font-bold mb-6 tracking-tight">OQES</h1>
+              <h1 className="text-6xl font-bold mb-6 tracking-tight text-[#000000]">
+                OQES
+              </h1>
               <p className="text-2xl mb-8 text-gray-300">
                 Beatmaker & Music Producer
               </p>
